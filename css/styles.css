@@ -1,0 +1,46 @@
+﻿*{
+   margin:0;
+   padding:0;
+   
+   
+}
+
+body{
+    background-image: url(../img/plano3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    color: red;
+    text-align: center;
+    margin: 4%;
+}
+
+
+img{
+    width: 96%;
+    margin: 1.5%;
+    height: 96%;
+    opacity: 0;
+    
+}
+
+.jogo div{
+    background-image: url(../img/plano.jpg);
+    border: 1px solid;
+    height: 25vh;
+    width: 100vh;
+    margin: 2vh;
+}
+
+.jogo{
+  display: flex;
+ 
+}
+
+
+ img:hover{
+     opacity:1;
+ }
